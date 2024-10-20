@@ -7,7 +7,7 @@ global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "";
-global.location = "Calabar, Nigeria";
+global.location = "lagos, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VangYOt96
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/7XTnzx9/IMG-20240927-WA0011.jpg";
 global.devs = "https://t.me/EmmyHenz";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "https://t.me/EmmyHenz";
+global.owner = process.env.OWNER_NUMBER || "2349135615687";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -50,9 +50,9 @@ module.exports = {
   VERSION: process.env.VERSION || "3.0.0",
   caption: process.env.CAPTION || "`EMMY_HENZ-V3™`",
   author: process.env.PACK_AUTHER || "EMMY_HENZ-V3",
-  packname: process.env.PACK_NAME || "E M M Y",
+  packname: process.env.PACK_NAME || "sheriff",
   botname: process.env.BOT_NAME || "EMMY_HENZ-V3",
-  ownername: process.env.OWNER_NAME || "Emmanuel Henshaw",
+  ownername: process.env.OWNER_NAME || "mr smile boss",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
